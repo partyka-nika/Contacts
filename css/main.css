@@ -86,3 +86,14 @@ body{
 .contact-link{
     color: aqua;
 }
+#footer {
+    margin: 0 auto 50px;
+    position: fixed;
+    left: 590px; bottom: 0; 
+    padding: 10px; 
+    font-size: 25px;
+}
+.footer{
+    color: aqua;
+    opacity: 0.5;
+}
