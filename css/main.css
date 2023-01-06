@@ -86,14 +86,26 @@ body{
 .contact-link{
     color: aqua;
 }
-#footer {
-    margin: 0 auto 50px;
-    position: fixed;
-    left: 590px; bottom: 0; 
-    padding: 10px; 
-    font-size: 25px;
+
+.bolt {
+	position:fixed;
+	left: 20px;
+	top: 20px;
+	font-size: 25px;
 }
-.footer{
-    color: aqua;
-    opacity: 0.5;
+
+.bolt a {
+	width: 50px;
+	height: 5opx;
+	background: black;
+	color: aqua;
+	text-align: center;
+	line-height: 50px;    
+	display: block;
+	transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+	opacity: 0.85;
+}
+
+.bolt a:hover{
+		background:gainsboro;
 }
