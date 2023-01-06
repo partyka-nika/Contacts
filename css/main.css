@@ -9,7 +9,7 @@
 }
 
 [for=burger]{
-background-color: rgb(20, 20, 20, 0.692) ;
+background-color: rgba(28, 29, 29, 0.692);
 display:block;
 position: fixed;
 width: 50px;
@@ -27,7 +27,7 @@ display: none;
 position: fixed;
 top: 10px;
 margin-top: 40px;
-background: rgb(20, 20, 20, 0.692);
+background: rgba(28, 29, 29, 0.692);
 width: 20%;
 height: 100%;
 user-select: none;
